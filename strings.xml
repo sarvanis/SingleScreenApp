@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NewAndroid</string>
+	<string name="udacity">Udacity</string>
+	<string name="phno">650-555-5555</string>
+	<string name="url">www.udacity.com</string>
+	<string name="addr">2465 Lathm St,Mountain View CA 94043</string>
+</resources>

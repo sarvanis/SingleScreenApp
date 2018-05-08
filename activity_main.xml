@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_view"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="32dp"
+        android:layout_alignParentTop="true"
+       android:scaleType="fitXY"
+        android:src="@drawable/udacity" />
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@id/img_view"
+        android:paddingLeft="32dp"
+        android:paddingBottom="24dp"
+        android:text="@string/udacity"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt1"
+        android:text="@string/phno"
+        android:paddingLeft="32dp"
+        android:paddingBottom="24dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt2"
+        android:paddingLeft="32dp"
+        android:paddingBottom="24dp"
+        android:text="@string/url"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt3"
+        android:text="@string/addr"
+        android:paddingLeft="32dp"
+        android:paddingBottom="24dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp"
+        />
+</RelativeLayout>
+
